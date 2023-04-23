@@ -22,9 +22,8 @@ enum UserStatic {
   NormalUser = 'normal',
   PayedUser = 'payed',
   AdminUser = 'admin',
-  MegaUser = 'mega'
+  MegaUser = 'mega',
 }
 
 const myLastUser = UserStatic.MegaUser;
 console.log(myLastUser);
-
