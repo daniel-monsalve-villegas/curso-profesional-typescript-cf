@@ -1,0 +1,12 @@
+{
+  "name": "curso-profesional-typescript",
+  "version": "1.0.0",
+  "description": "Curso de typescript en codigofacilito para aprender las bases y fundamentos sólidos de este lenguaje.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc basics/types.ts && --outdir dist/ && node dist/types.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
