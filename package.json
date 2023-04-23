@@ -4,7 +4,9 @@
   "description": "Curso de typescript en codigofacilito para aprender las bases y fundamentos sólidos de este lenguaje.",
   "main": "index.js",
   "scripts": {
-    "start": "tsc basics/types.ts && --outdir dist/ && node dist/types.js"
+    "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+    "start:enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
+    "start:interface": "tsc basics/interfaces.ts --outdir dist/ && node dist/interfaces.js"
   },
   "keywords": [],
   "author": "",
