@@ -8,7 +8,9 @@
     "start:enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
     "start:interface": "tsc basics/interfaces.ts --outdir dist/ && node dist/interfaces.js",
     "start:class": "tsc basics/classes.ts --outdir dist/ && node dist/classes.js",
-    "start:functions": "tsc basics/functions.ts --outdir dist/ && node dist/functions.js"
+    "start:functions": "tsc basics/functions.ts --outdir dist/ && node dist/functions.js",
+    "start:namespace": "tsc advanced/namespaces/namespaces.ts --outfile dist/namespaces.js && node dist/namespaces.js",
+    "start:namespaces": "tsc advanced/namespaces/namespaces.ts advanced/namespaces/index.ts --outfile dist/namespaces.js && node dist/namespaces.js"
   },
   "keywords": [],
   "author": "",
